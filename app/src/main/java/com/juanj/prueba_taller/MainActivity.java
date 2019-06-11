@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //Descomentar la siguiente linea para que funcione en movil fisico
       //  mAuth= FirebaseAuth.getInstance().getCurrentUser().getPhoneNumber();
         btnCliente=findViewById(R.id.button);
         btnVehiculo=findViewById(R.id.button2);
