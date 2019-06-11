@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Actividades.AddClienteActivity"
+    android:orientation="vertical"
+    android:background="#454545">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombrePiezaAdd"
+        android:textColorHint="#fff400"
+        android:textColor="#fff400"
+        android:hint="Nombre"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/marcaAdd"
+        android:textColorHint="#fff400"
+        android:textColor="#fff400"
+        android:hint="Marca"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/modeloAdd"
+        android:textColorHint="#fff400"
+        android:textColor="#fff400"
+        android:hint="Modelo"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/referenciaAdd"
+        android:textColorHint="#fff400"
+        android:textColor="#fff400"
+        android:hint="Referencia"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/foto_piezaAdd"
+        android:textColorHint="#fff400"
+        android:textColor="#fff400"
+        android:hint="Foto"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/precioAdd"
+        android:textColorHint="#fff400"
+        android:textColor="#fff400"
+        android:inputType="number"
+        android:hint="Precio"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/proveedorAdd"
+        android:textColorHint="#fff400"
+        android:textColor="#fff400"
+        android:hint="Proveedor"/>
+    <Spinner
+        android:id="@+id/spinnerProveedor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#787878"
+        android:textColorHint="#fff400"
+        android:textColor="#fff400"
+        android:hint="Precio"/>
+
+
+</LinearLayout>
+
+
+

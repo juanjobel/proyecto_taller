@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detalles.PiezaDetalle"
+    android:orientation="vertical"
+    android:background="#454545">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombrePieza"
+        android:layout_margin="5dp"
+        android:enabled="false"
+        android:textColor="#fff400"
+        android:text="Nombre"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/marcaPieza"
+        android:enabled="false"
+        android:layout_margin="5dp"
+        android:textColor="#fff400"
+        android:text="Marca"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:layout_margin="5dp"
+        android:id="@+id/modeloPieza"
+        android:textColor="#fff400"
+        android:text="Modelo"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/referenciaPieza"
+        android:enabled="false"
+        android:layout_margin="5dp"
+        android:textColor="#fff400"
+        android:text="Referencia"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/precioPieza"
+        android:enabled="false"
+        android:layout_margin="5dp"
+        android:textColor="#fff400"
+        android:text="Precio"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombreProveedor"
+        android:enabled="false"
+        android:layout_margin="5dp"
+        android:textColor="#fff400"
+        android:text="Proveedor"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:src="@android:drawable/ic_menu_save" />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detalles.ProveedorDetalle"
+    android:orientation="vertical"
+    android:background="#454545">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombreProveedorDetalle"
+        android:enabled="false"
+        android:layout_margin="5dp"
+        android:textColor="#fff400"
+        android:text="Nombre"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/domicilioDetalle"
+            android:layout_margin="5dp"
+            android:enabled="false"
+            android:textColor="#fff400"
+            android:layout_weight="1"
+            android:text="Domicilio"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/telefonoProveedor"
+            android:enabled="false"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="#fff400"
+            android:text="Teléfono"/>
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:layout_margin="5dp"
+        android:enabled="false"
+        android:textColor="#fff400"
+        android:text="Email"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:src="@android:drawable/ic_menu_save" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recyclerPiezas"
+        android:layout_height="match_parent"
+        tools:ignore="InvalidId"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

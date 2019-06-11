@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Actividades.AddClienteActivity"
+    android:orientation="vertical"
+    android:background="#454545">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombreClienteAdd"
+        android:textColorHint="#fff400"
+        android:textColor="#fff400"
+        android:hint="Nombre"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/apellido1ClienteAdd"
+            android:textColorHint="#fff400"
+            android:textColor="#fff400"
+            android:hint="Primer Apellido"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/apellido2ClienteAdd"
+            android:textColorHint="#fff400"
+            android:textColor="#fff400"
+            android:hint="Segundo Apellido"
+            />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/documentoAdd"
+        android:textColorHint="#fff400"
+        android:textColor="#fff400"
+        android:hint="Documento"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/movilAdd"
+            android:textColorHint="#fff400"
+            android:textColor="#fff400"
+            android:hint="Móvil"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/direccionAdd"
+                android:textColorHint="#fff400"
+                android:textColor="#fff400"
+                android:hint="Dirección"/>
+
+    </LinearLayout>
+
+
+

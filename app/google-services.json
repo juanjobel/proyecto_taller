@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "572351556309",
+    "firebase_url": "https://proyectotaller-22085.firebaseio.com",
+    "project_id": "proyectotaller-22085",
+    "storage_bucket": "proyectotaller-22085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572351556309:android:69c65de53ab63815",
+        "android_client_info": {
+          "package_name": "com.juanj.prueba_taller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572351556309-ph18sc00cqoi67cvuhgv3g5urebfvmm5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.juanj.prueba_taller",
+            "certificate_hash": "b423a02dd5dcb4fe9c1495a675a21681942ba71e"
+          }
+        },
+        {
+          "client_id": "572351556309-jdv72gj01mdicifvadsjgd8voc37jt9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-qLibWxZ9XJ5SlOz-j2q_mqWZkh9bDX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572351556309-jdv72gj01mdicifvadsjgd8voc37jt9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

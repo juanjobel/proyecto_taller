@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Actividades.RegistroActivity"
+    android:gravity="center"
+    android:background="#454545">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su número de móvil"
+        android:textColor="#fff400"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/etxtPhone"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff400"
+        android:textSize="20dp"
+        android:backgroundTint="#fff400"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColorHint="#fff400"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="requestCode"
+        android:textSize="20dp"
+        android:textColorHint="#343434"
+        android:hint="Enviar código"
+        android:layout_margin="10dp"
+        android:background="@drawable/botonlogin"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese el código recibido"
+        android:textColor="#fff400"
+        android:textSize="20dp"
+        android:layout_marginVertical="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/etxtPhoneCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColorHint="#fff400"
+        android:textColor="#fff400"
+        android:inputType="number"
+        android:gravity="center"
+        android:backgroundTint="#fff400"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="signIn"
+        android:hint="Entrar"
+        android:textColorHint="#343434"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/botonlogin"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

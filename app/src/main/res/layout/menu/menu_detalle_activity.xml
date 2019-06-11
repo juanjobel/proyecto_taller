@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/compartir"
+        android:icon="@drawable/compartir"
+        android:title="compartir"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/infoWeb"
+        android:icon="@drawable/infoweb"
+        android:title="favoritos"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/correo"
+        android:icon="@drawable/correo"
+        android:title="correo"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/modificar"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="modificar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/eliminar"
+        android:icon="@android:drawable/ic_delete"
+        android:title="eliminar"
+        app:showAsAction="always" />
+</menu>

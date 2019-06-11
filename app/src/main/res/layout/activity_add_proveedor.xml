@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Actividades.AddProveedorActivity"
+    android:orientation="vertical"
+    android:background="#454545">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombreProveedorAdd"
+        android:textColorHint="#fff400"
+        android:textColor="#fff400"
+        android:hint="Nombre"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/domicilioAdd"
+            android:textColorHint="#fff400"
+            android:textColor="#fff400"
+            android:layout_weight="1"
+            android:hint="Domicilio"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/telefonoAdd"
+            android:layout_weight="1"
+            android:textColorHint="#fff400"
+            android:textColor="#fff400"
+            android:hint="Teléfono"
+            />
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailAdd"
+        android:textColorHint="#fff400"
+        android:textColor="#fff400"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+
+
+</LinearLayout>
